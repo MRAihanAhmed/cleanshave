@@ -1,3 +1,4 @@
+"use strict";
 var Person = (function () {
     function Person() {
     }
@@ -9,5 +10,5 @@ var Person = (function () {
         configurable: true
     });
     return Person;
-})();
+}());
 exports.Person = Person;

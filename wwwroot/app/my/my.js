@@ -9,16 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var ng = require('angular2/angular2');
-var About = (function () {
-    function About() {
+var My = (function () {
+    function My() {
     }
-    About = __decorate([
+    My = __decorate([
         ng.Component({
-            selector: 'about',
-            templateUrl: './app/about/about.html'
+            selector: 'my',
+            templateUrl: './app/my/my.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], About);
-    return About;
+    ], My);
+    return My;
 }());
-exports.About = About;
+exports.My = My;
